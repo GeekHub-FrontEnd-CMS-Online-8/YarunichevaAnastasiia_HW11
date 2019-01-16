@@ -1,0 +1,42 @@
+#services
+	background: url(../img/services-bg.png) no-repeat
+	background-size: cover
+	color: #fff
+	text-align: center
+	padding-top: 75px
+	padding-bottom: 85px
+
+	.service_block
+		display: flex
+		justify-content: space-between
+		margin-top: 70px
+
+	.serv_block-item
+		width: 200px
+		position: relative
+		border: 2px #fff solid
+		border-top: none
+		padding: 25px 35px
+		
+		.border-top
+			display: flex
+			width: 100%
+			position: absolute
+			top: 0
+			left: 0
+
+			&:before
+				display: block
+				content: ""
+				flex: 1 0 0
+				border-top: 2px #fff solid
+
+			&:after
+				display: block
+				content: ""
+				flex: 1 0 0
+				border-top: 2px #fff solid
+
+			.top-content
+				margin-top: -9px
+				flex: 0 0 70px

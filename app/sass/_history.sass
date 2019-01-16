@@ -1,0 +1,116 @@
+#history
+	padding-top: 60px
+	padding-bottom: 80px
+
+.year
+	position: relative
+	display: flex
+	justify-content: center
+	align-items: center
+	border: 1px #3e3d3d solid
+	color: #3e3d3d
+	border-radius: 50%
+	width: 72px
+	height: 72px
+	left: 46.8%
+	top: 17px
+
+.timeline
+	position: relative
+	max-width: 1175px
+	margin: 0 auto
+	display: flex
+	justify-content: space-between
+
+	&::after
+		content: ''
+		position: absolute
+		width: 2px
+		background-color: #3e3d3d
+		top: 0
+		bottom: -33px
+		left: 50%
+		margin-left: -3px
+
+.block
+	position: relative
+	background-color: inherit
+	width: 50%
+	
+	&::after
+		content: ''
+		position: absolute
+		width: 17px
+		height: 17px
+		right: 27px
+		background-color: #3e3d3d
+		top: 15px
+		border-radius: 50%
+		z-index: 1
+
+.left
+	margin-bottom: 30px
+	margin-top: 20px
+
+	&::before
+		content: " "
+		height: 0
+		position: absolute
+		top: 22px
+		width: 0
+		z-index: 1
+		right: -290px
+		border: medium solid #3e3d3d
+		border-width: 10px 0 10px 10px
+		border-color: transparent transparent transparent #3e3d3d
+
+	&::after
+		right: -313px
+
+.right
+	margin-top: 50px
+	
+	&::before
+		content: " "
+		height: 0
+		position: absolute
+		top: 22px
+		width: 0
+		z-index: 1
+		left: -10px
+		border: medium solid #3e3d3d
+		border-width: 10px 10px 10px 0
+		border-color: transparent #3e3d3d transparent transparent
+
+	&::after
+		left: -35px
+
+.content
+	border: 1px #3e3d3d solid
+	position: relative
+	color: #3e3d3d
+	width: 520px
+	padding: 30px 20px
+
+	h3
+		font-size: 13px
+		text-transform: uppercase
+
+	p
+		font-size: 14px
+
+	&:hover
+		background: #3e3d3d
+		color: #fff
+.date
+		font-size: 11px
+		margin-top: 10px
+		margin-bottom: 30px
+		
+.lamp
+	border-radius: 50%
+	background: #3e3d3d
+	border: 14px #3e3d3d solid
+	position: relative
+	left: 47.5%
+	top: 33px

@@ -1,0 +1,10 @@
+#altantida {
+  background: url(../img/bg-top.png) no-repeat;
+  background-size: cover; }
+
+.altantida {
+  height: 635px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }

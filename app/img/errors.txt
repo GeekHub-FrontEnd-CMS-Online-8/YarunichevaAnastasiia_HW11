@@ -1,0 +1,2 @@
+[Sun Jan 06 2019 11:13:55 GMT+0200 (Финляндия (зима))] Layer "Free-PSD-Template.com Company": Expected end of input but "C" found.
+[Sun Jan 06 2019 11:13:55 GMT+0200 (Финляндия (зима))] Layer "E-mail: elegantflyers@gmail.com +84 956 654 972": Unsupported extension: com

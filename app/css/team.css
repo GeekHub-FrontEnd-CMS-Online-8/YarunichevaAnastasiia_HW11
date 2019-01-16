@@ -1,0 +1,35 @@
+#team {
+  background: url(../img/team-bg.png) no-repeat;
+  background-size: cover;
+  padding-top: 75px; }
+  #team .team-members {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around; }
+  #team .team-info {
+    position: relative;
+    padding-top: 180px;
+    padding-bottom: 35px;
+    width: 255px;
+    background: rgba(255, 255, 255, 0.8);
+    top: -333px;
+    left: 8px;
+    color: #3e3d3d;
+    opacity: 0; }
+    #team .team-info .team-name {
+      font-size: 13px;
+      text-transform: none;
+      margin-left: 25px; }
+    #team .team-info p {
+      font-size: 14px;
+      text-transform: uppercase;
+      margin-left: 15px; }
+    #team .team-info hr {
+      width: 145px;
+      margin-left: 15px; }
+    #team .team-info .social-icons {
+      margin-left: 15px; }
+    #team .team-info a {
+      color: #3e3d3d; }
+    #team .team-info:hover {
+      opacity: 1; }
